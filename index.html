@@ -3,10 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Luxury Car</title>
 </head>
 <body>
+    <header class="header">
+            <a href="#"><img src="./image/car2_logo.png" alt="Car Theme Logo"></a>
+            <nav class="m-navigation">
+                <ul class="navigation-list">
+                    <li class="navigation-item">
+                        <a href="#">Home</a>
+                    </li>
+            
+                    <li class="navigation-item">
+                        <a href="#">Work</a>
+                    </li>
+            
+                    <li class="navigation-item">
+                        <a href="#">Services</a>
+                    </li>
+            
+                    <li class="navigation-item">
+                        <a href="#">About & Contact</a>
+                    </li>    
+                </ul>
+            </nav>
+    </header>
 
+    <section class="m-slider">
+            <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="row">
+                            <div class="slide-info">
+                                <h1 class="show-case-info">Lorem ipsum dolor mit samet etomni vanitare quantum</h1>
+                                <div class="slider-feature-list">
+                                    <div class="slider-feature">
+                                        <span class="icon -renavation"></span>
+                                        <h4>Renovation</h4>
+                                    </div>
+                                    <div class="slider-feature">
+                                        <span class="icon -customization"></span>
+                                        <h4>Customization</h4>
+                                    </div>
+                                </div>
+                                <a class="btn" href="#">Renovation</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./image/car2_slide1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="row">
+                            <div class="slide-info">
+                                <h1 class="show-case-info">Lorem ipsum dolor mit samet etomni vanitare quantum</h1>
+                                <div class="slider-feature-list">
+                                    <div class="slider-feature">
+                                        <span class="icon -renavation"></span>
+                                        <h4>Renovation</h4>
+                                    </div>
+                                    <div class="slider-feature">
+                                        <span class="icon -customization"></span>
+                                        <h4>Customization</h4>
+                                    </div>
+                                </div>
+                                <a class="btn" href="#">Renovation</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./image/car2_slide2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="row">
+                            <div class="slide-info">
+                                <h1 class="show-case-info">Lorem ipsum dolor mit samet etomni vanitare quantum</h1>
+                                <div class="slider-feature-list">
+                                    <div class="slider-feature">
+                                        <span class="icon -renavation"></span>
+                                        <h4>Renovation</h4>
+                                    </div>
+                                    <div class="slider-feature">
+                                        <span class="icon -customization"></span>
+                                        <h4>Customization</h4>
+                                    </div>
+                                </div>
+                                <a class="btn" href="#">Renovation</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./image/car2_slide3.jpg" alt="">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    
+    <!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        hiddenClass: 'swiper-button-hidden'
+      },
+      autoplay:{
+          delay:3000
+      }
+    });
+	</script>
+    <!-- <div class="container">
+        <article class="show-case-info">Lorem ipsum dolor mit samet etomni vanitare quantum</article>
+        <div class="slider-icon-list">
+            <div class="slider-icon">
+                <img src="./image/car2_slider_icon1.png" alt="Slider icon1">
+                <h4>Renovation</h4>
+            </div>
+            <div class="slider-icon">
+                <img src="./image/car2_slider_icon2.png" alt="Slider icon2">
+                <h4>Customization</h4>
+            </div>
+        </div>
+    </div> -->
 </body>
 </html>
