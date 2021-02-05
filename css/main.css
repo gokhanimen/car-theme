@@ -156,7 +156,7 @@ table {
 	padding-right: 40px;
 }
 
-.swiper-slide img{
+.swiper-slide .main-slider-img{
 	height: calc(100vh - 60px);
 	width: 100%;
 }
@@ -330,4 +330,33 @@ table {
 	top: -100px;
 	display: flex;
 	right: 0;
+}
+
+.show-case-slider{
+	overflow: hidden;
+
+}
+
+.show-case-slider-title{
+	margin-top: 80px;
+	margin-bottom: 40px;
+	font-family: var(--first-font);
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.show-case-slider-img{
+	display: block;
+	height: 341px;
+}
+
+.show-case-slider-img:hover{
+	transform: scale(1.1);
+	transition: all .3s;
+}
+
+.show-case-slider .swiper-slide {
+	overflow: hidden;
 }

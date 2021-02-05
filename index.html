@@ -54,7 +54,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="./image/car2_slide1.jpg" alt="">
+                    <img class="main-slider-img" src="./image/car2_slide1.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
                     <div class="container">
@@ -75,7 +75,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="./image/car2_slide2.jpg" alt="">
+                    <img class="main-slider-img" src="./image/car2_slide2.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
                     <div class="container">
@@ -96,7 +96,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="./image/car2_slide3.jpg" alt="">
+                    <img class="main-slider-img" src="./image/car2_slide3.jpg" alt="">
                 </div>
             </div>
             <!-- Add Pagination -->
@@ -177,25 +177,65 @@
         </div>
     </section>
 
+    <!-- Show Case Slider -->
+
+    <section class="show-case-slider">
+        <h3 class="show-case-slider-title">
+            See what <br> we've done so far
+        </h3>
+
+        <!-- Swiper -->
+        <div class="swiper-container -show-case-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="show-case-slider-img" src="./image/car2_work_1-960x620.jpg" alt="Bmw steering wheel ">
+                </div>
+                <div class="swiper-slide">
+                    <img class="show-case-slider-img" src="./image/car2_work_2-960x620.jpg" alt="Mercedes Console">
+                </div>
+                <div class="swiper-slide">
+                    <img class="show-case-slider-img" src="./image/car2_work_3-960x620.jpg" alt="BMW Angel Eye">
+                </div>
+                <div class="swiper-slide">
+                    <img class="show-case-slider-img" src="./image/car2_work_4-960x620.jpg" alt="BMW Shifter">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
     <!-- Swiper JS -->
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 	<!-- Initialize Swiper -->
 	<script>
-		var swiper = new Swiper('.swiper-container', {
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'fraction',
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-        hiddenClass: 'swiper-button-hidden'
-      },
-      autoplay:{
-          delay:3000
-      }
-    });
+        var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+        },
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            hiddenClass: 'swiper-button-hidden'
+        },
+        autoplay:{
+            delay:3000
+        }
+        });
+
+        var showCaseSlider = new Swiper('.swiper-container.-show-case-slider', {
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay:{
+            delay:3000
+        }
+        });
 	</script>
 
 </body>
