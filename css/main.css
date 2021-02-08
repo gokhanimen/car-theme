@@ -402,6 +402,46 @@ table {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 25px;
+	text-decoration: none;
 	color: black;
 }
 
+/* footer-show-case */
+
+.footer-show-case{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../image/car2_section3_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footer-show-case-content{
+	padding-top: 200px;
+}
+
+.footer-show-case h3{
+	font-family: var(--first-font);
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: #ffffff;
+}
+
+.footer-show-case p{
+	font-family: var(--second-font);
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 25px;
+	color: #ffffff;
+}
+
+.footer-show-case a{
+	font-family: var(--second-font);
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #ffffff;
+}
