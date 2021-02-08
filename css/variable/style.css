@@ -1,0 +1,9 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+:root{
+	--first-font:'Orbitron', sans-serif;
+	--second-font:'Poppins', sans-serif;
+	--third-font:'Roboto', sans-serif;
+}

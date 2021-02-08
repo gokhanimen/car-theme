@@ -1,0 +1,91 @@
+/* Footer */
+
+.footer{
+	background-color: #0C0C0D;
+	height: 181px;
+	width: 100%;
+	align-items: center;
+}
+
+.footer .footer-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-title{
+	color: #ffffff;
+	font-family: var(--first-font);
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+.footer-logo{
+	height: 48px;
+	width: 243px;
+	flex: 1;
+}
+
+.footer-img{
+	height: 40px;
+	width: 72px;
+}
+
+.localization{
+	color: #a6a6a6;
+	flex-direction: column;
+	font-family: var(--second-font);
+	font-size: 14px;
+	line-height: 25px;
+	flex: 1;
+}
+
+.localization li{
+	margin-top: 7px;
+}
+
+.social-media{
+	color: #a6a6a6;
+	font-family: var(--second-font);
+	font-size: 14px;
+	line-height: 25px;
+	width: 180px;
+	flex: 1;
+}
+
+.social-media li{
+	margin-top: 7px;
+}
+
+.telephone-number{
+	color: #a6a6a6;
+	font-family: var(--second-font);
+	font-size: 14px;
+	line-height: 25px;
+	flex: 1;
+}
+
+.telephone-number .number{
+	font-family: var(--first-font);
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #ffffff;
+}
+
+.telephone-number li{
+	margin-top: 7px;
+
+}
+
+.copyright-area{
+	background-color: #0C0C0D;
+}
+
+.copyright{
+	color: #ffffff;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 20px;
+}

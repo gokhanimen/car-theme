@@ -1,0 +1,32 @@
+/* Header */
+
+.header {
+	height: 60px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navigation-list {
+	display: flex;
+}
+
+.navigation-item{
+	padding-right: 30px;
+	padding-left: 30px;
+	font-size: 15px;
+	line-height: 60px;
+}
+
+.navigation-item:hover{
+	background-color: black;
+}
+
+.navigation-item a {
+	text-decoration: none;
+	color: white;
+}
