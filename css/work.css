@@ -1,0 +1,90 @@
+.container{
+	max-width: 1090px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row{
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+}
+
+.banner-area{
+    width: 100%;
+}
+
+.banner-content{
+    background-image: url(../image/car2_work_subheader_bg.jpg);
+    background-size: cover;
+    height:470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content-title{
+    font-family: var(--first-font);
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.banner-area-desc{
+    font-family: var(--first-font);
+    line-height: 36px;
+    font-size: 30px;
+    max-width: 850px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.banner-image-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px; 
+    flex-direction: column;
+}
+
+.banner-image-item{
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.banner-image-item img:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+.banner-image-header{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.banner-image-header p{
+    font-family: var(--first-font);
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.down{
+    padding: 10px;
+    background-color:#F7F7F7;
+}
+
+.read-more{
+    padding: 10px 15px;
+    background-color:#000;
+    color: white;
+    font-family: var(--second-font);
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
