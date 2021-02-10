@@ -1,0 +1,54 @@
+.container{
+	max-width: 1090px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.services-show-case-area{
+    background-image: url(../image/car2_services_subheader.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.show-case-content{
+    color: white;
+    width: 636px;
+    padding-top: 250px;
+}
+
+.show-case-title{
+    font-family: var(--first-font);
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 400px;
+}
+
+.group{
+    display: flex;
+    margin-top: 60px; 
+}
+
+.group h3{
+    font-family: var(--first-font);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 57px;
+    margin-right: 15px;
+}
+
+.group p{
+    font-family: var(--second-font);
+    font-size: 14px;
+    line-height: 25px;
+    max-width: 200px;
+}
+
+.show-case-desc{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
