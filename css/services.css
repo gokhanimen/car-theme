@@ -52,3 +52,36 @@
     align-items: center;
     margin-right: 50px;
 }
+
+/* Video Area */
+
+.video-area{
+   
+}
+
+.video-area-content{
+    display: flex;
+    position: relative;
+}
+
+.video-area-desc h1{
+    font-family: var(--first-font);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.video-area-desc p{
+    font-family: var(--second-font);
+    font-size: 14px;
+    line-height: 25px;
+    width: 50%;
+}
+
+.video{
+    position: absolute;
+    top: -75px;
+    right: 0;
+}
