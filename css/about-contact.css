@@ -1,7 +1,154 @@
-.container{
+body{
+	list-style-type: none;
+}
+
+px.container{
 	max-width: 1090px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.about-contact-show-case{
+	background-image: url(../image/car2-contacr-headerbg.jpg);
+	height: 500px;
+	width: 100%;
+}
+
+.about-contact-title{
+	font-family: var(--first-font);
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 57px;
+	color: #fff;
+	max-width: 60%;
+	padding-top: 170px;
+}
+
+.about-contact-show-case-image{
+	display: flex;
+	position: relative;
+}
+
+.img-1{
+	height: 403px;
+	width: 424px;
+	position: absolute;
+	top: 216px;
+
+}
+
+.img-2{
+	height: 456px;
+	width: 636px;
+	position: absolute;
+	top: 90px;
+	left: 434px;
+}
+
+.about-contact-notepad{
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 216px;
+	left: 20px;
+	background-image: url(../image/car2_section1_bg2-contact.jpg);
+	height: 333px;
+	width: 354px;
+	padding:25px 30px;
+}
+
+.place-holder{
+	display: flex;
+}
+
+.place-holder img{
+	height: 24px;
+	width: 24px;
+}
+
+.about-contact-notepad h3{
+	padding-bottom: 25px;
+	font-family: var(--first-font);
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.about-contact-notepad div{
+	padding-bottom: 30px;
+	font-family: var(--second-font);
+	font-size: 14px;
+}
+
+.about-contact-notepad div img{
+	margin-right: 20px;
+}
+
+.about-contact-notepad div a{
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Contact Area */
+
+.contact-inclusive{
+	display: flex;
+	position: absolute;
+	bottom: -400px;
+}
+
+.contact-inclusive div{
+	margin-right: 50px;
+	justify-content: space-around;
+	margin-left: 90px;
+}
+
+.contact-inclusive div h5{
+	font-family: var(--first-font);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-bottom: 15px;
+}
+
+.contact-inclusive div p{
+	font-family: var(--second-font);
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.contact-inclusive div li{
+	font-family: var(--second-font);
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.car-mechanic-img{
+	margin-top: 700px;
+	height: 537px;
+	width: 1039px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.image-area-desc{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	font-family: var(--first-font);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+}
+
+.image-area-text{
+	font-family: var(--second-font);
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 20px;
+
+	text-align: center;
+
 }
