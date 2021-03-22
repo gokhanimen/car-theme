@@ -1,0 +1,205 @@
+.container{
+    max-width: 375px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.slide-info{
+    padding-left: 25px;
+}
+
+.show-case-info{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 50%;
+}
+
+.slider-feature h4{
+    font-size: 13px;
+    line-height: 9px;
+    font-weight: 400;
+}
+
+.slide-info .btn{
+    font-size: 11px;
+    line-height: 10px;
+    padding: 7px 8px;
+}
+
+.main-slider-img{
+    object-fit: cover;
+}
+
+.o-detail{
+    height: 100%;
+}
+
+.o-detail__desc{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+
+.show-case-title{
+    font-size: 31px;
+    line-height: 34px;
+    letter-spacing: 0px;
+
+}
+
+.show-case{
+    height: 538px;
+    width: 309px;
+    overflow: hidden;
+}
+
+.show-case img{
+    object-fit: cover;
+}
+
+.show-case-detail{
+    height: auto;
+    width: auto;
+    vertical-align: baseline;
+    padding-bottom: 40px;
+}
+
+.show-case-detail h3{
+    text-align: center;
+    font-size: 26px;
+}
+
+.show-case-detail p{
+    font-size: 13px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+.card-group{
+    flex-direction: column;
+    position: relative;
+    top: 0;
+}
+
+.show-case-card p{
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0px;
+}
+
+.icon{
+    height: 60px;
+    width: 60px;
+}
+
+.show-case-content{
+    height: 100%;
+    flex-direction: column;
+    padding: 0;
+}
+
+.o-detail .show-case-card{
+    height: 300px !important;
+    width: auto !important;
+    margin-bottom: 20px;
+}
+
+
+.show-case-slider-title{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.car-drawing-photo{
+    flex-direction: column;
+
+}
+
+.swiper-slide{
+    width: 100%;
+}
+
+.car-draw-photo{
+    margin-bottom: 20px;
+}
+
+.car-draw-area{
+    height: 100%;
+    padd
+}
+
+.car-draw-area-content h3{
+    font-size: 30px;
+}
+
+.car-draw-area-content p{
+    font-size: 13px;
+    line-height: 18px;
+    width: 100%;
+}
+
+.footer{
+    height: auto;
+}
+
+.footer-show-case-content h3{
+    font-size: 30px;
+}
+
+.footer-show-case-content p{
+    font-size: 13px;
+    line-height: 18px;
+    width: 100%;
+}
+
+.footer-content{
+    flex-direction: column;
+}
+
+.footer-logo{
+    margin-bottom: 15px;
+}
+
+.localization{
+    line-height: 16px;
+}
+
+.social-media{
+    line-height: 16px;
+}
+
+.footer-title{
+    margin-top: 20px;
+}
+
+.footer-show-case{
+    height: 100%;
+}
+
+.telephone-number h4{
+    font-size: 18px;
+}
+
+.telephone-number .number{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.copyright{
+    padding-top: 0;
+    padding-bottom: 10px;
+    color: #92A4A6;
+}
+
+.copyright-area-msg{
+    display: flex;
+    flex-direction: column;
+    color: #92A4A6;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    align-items: center;
+}

@@ -349,3 +349,57 @@
 	text-decoration: none;
 	color: #ffffff;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 578px){
+
+	.header{
+		position: relative;
+		z-index: 2;
+		background-color: black;
+	}
+
+	.m-navigation{
+		width: 100%;
+		position: absolute;
+		background-color: #000;
+		top: -220px;
+		left: 0;
+		z-index: -2;
+	}
+
+	.m-navigation.-opened{
+		top: 60px;
+	} 
+
+	.navigation-list{
+		flex-direction: column;
+	}
+
+	.navigation-list a{
+		color: #ffffff;
+	}
+
+	.swiper-container{
+		z-index: 1;
+	}
+
+	.hamburger-menu-btn{
+		display: block;
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+}

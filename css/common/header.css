@@ -11,6 +11,17 @@
 	background-color: rgba(0, 0, 0, 0.8);
 }
 
+.hamburger-menu-btn {
+    display: none;
+    height: 24px;
+    width: 24px;
+    border: none;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    background:no-repeat url(./../../icons/menu.svg) center / 24px;
+}
+
 .navigation-list {
 	display: flex;
 }

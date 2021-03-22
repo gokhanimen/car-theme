@@ -9,31 +9,34 @@
     <link rel="stylesheet" href="./css/main.css"> 
     <link rel="stylesheet" href="./css/common/footer.css"> 
     <link rel="stylesheet" href="./css/variable/style.css"> 
+    <link rel="stylesheet" media="(max-width:568px)" href="./css/responsive css/main-phone.css">
 
     <title>Luxury Car</title>
 </head>
 <body>
     <header class="header">
-            <a href="#"><img src="./image/car2_logo.png" alt="Car Theme Logo"></a>
-            <nav class="m-navigation">
-                <ul class="navigation-list">
-                    <li class="navigation-item">
-                        <a href="./index.html">Home</a>
-                    </li>
-            
-                    <li class="navigation-item">
-                        <a href="./work.html">Work</a>
-                    </li>
-            
-                    <li class="navigation-item">
-                        <a href="./services.html">Services</a>
-                    </li>
-            
-                    <li class="navigation-item">
-                        <a href="./about&contact.html">About & Contact</a>
-                    </li>    
-                </ul>
-            </nav>
+        <a href="#"><img src="./image/car2_logo.png" alt="Car Theme Logo"></a>
+        <nav class="m-navigation open">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a href="./index.html">Home</a>
+                </li>
+        
+                <li class="navigation-item">
+                    <a href="./work.html">Work</a>
+                </li>
+        
+                <li class="navigation-item">
+                    <a href="./services.html">Services</a>
+                </li>
+        
+                <li class="navigation-item">
+                    <a href="./about-contact.html">About & Contact</a>
+                </li>    
+            </ul>
+        </nav>
+        
+        <button id="hamburger-menu-btn" class="hamburger-menu-btn"></button>
     </header>
 
     <section class="m-slider">
@@ -59,8 +62,8 @@
                             </div>
                         </div>
                     </div>
-                    <img class="main-slider-img" src="./image/car2_slide1.jpg" alt="">
-                </div>
+                        <img class="main-slider-img" src="./image/car2_slide1.jpg" alt="">
+                    </div>
                 <div class="swiper-slide">
                     <div class="container">
                         <div class="row">
@@ -196,12 +199,15 @@
                 <div class="swiper-slide">
                     <img class="show-case-slider-img" src="./image/car2_work_1-960x620.jpg" alt="Bmw steering wheel ">
                 </div>
+
                 <div class="swiper-slide">
                     <img class="show-case-slider-img" src="./image/car2_work_2-960x620.jpg" alt="Mercedes Console">
                 </div>
+
                 <div class="swiper-slide">
                     <img class="show-case-slider-img" src="./image/car2_work_3-960x620.jpg" alt="BMW Angel Eye">
                 </div>
+
                 <div class="swiper-slide">
                     <img class="show-case-slider-img" src="./image/car2_work_4-960x620.jpg" alt="BMW Shifter">
                 </div>
@@ -273,7 +279,9 @@
 
     <section class="copyright-area">
         <div class="copyright-area-msg">
-            <p class="copyright">© 2021 BeCar 2 - BeTheme. All Rights Reserved. Muffin group</p>
+            <p class="copyright">© 2021 BeCar 2 - BeTheme.</p>
+            
+            <span> All Rights Reserved. Muffin group</span>
         </div>
     </section>
 
@@ -298,8 +306,15 @@
         }
         });
 
+        let slidesPerView = 3;
+
+        if (window.innerWidth <= 768) {
+            slidesPerView = 1;
+        }
+        
+
         var showCaseSlider = new Swiper('.swiper-container.-show-case-slider', {
-        slidesPerView: 3,
+        slidesPerView: slidesPerView,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
@@ -309,5 +324,21 @@
         }
         });
 	</script>
+
+    <script>
+        const hamburgerMenu = document.querySelector("#hamburger-menu-btn");
+        const sideMenu = document.querySelector(".m-navigation");
+
+        hamburgerMenu.addEventListener("click", function(){
+            
+            if (sideMenu.classList.contains("-opened")) {
+                sideMenu.classList.remove("-opened")
+            }
+            else{
+                sideMenu.classList.add("-opened")
+            }
+        });
+    
+    </script>
 </body>
 </html>
